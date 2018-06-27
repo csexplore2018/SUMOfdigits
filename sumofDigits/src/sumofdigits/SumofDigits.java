@@ -17,6 +17,7 @@ public class SumofDigits {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("The SUMOfdigits is NOT a SUMO WRESTLER!");
         System.out.println("Type any integer.");
         Scanner kool = new Scanner(System.in);
         int number = kool.nextInt();
