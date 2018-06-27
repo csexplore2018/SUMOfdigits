@@ -9,6 +9,7 @@ package sumofdigits;
  *
  * @author gc_science6
  */
+import java.util.Scanner;
 public class SumofDigits {
 
     /**
@@ -17,6 +18,11 @@ public class SumofDigits {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("The SUMOfdigits is not a SUMO WRESTLER!");
+        Scanner kool = new Scanner(System.in);
+        int number = kool.nextInt();
+        System.out.println(number);
+        int sum = 0;
+
     }
     
 }
