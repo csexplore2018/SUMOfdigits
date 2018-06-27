@@ -17,12 +17,19 @@ public class SumofDigits {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("The SUMOfdigits is not a SUMO WRESTLER!");
+        System.out.println("Type any integer.");
         Scanner kool = new Scanner(System.in);
         int number = kool.nextInt();
-        System.out.println(number);
         int sum = 0;
-
+        String stone = String.valueOf(number);
+        String ocean[] = stone.split("");
+        for(int x = 0; x < stone.length(); x++)
+        {
+            int free = Integer.parseInt(ocean[x]);
+            sum += free;
+        }
+        
+        System.out.println("The sum of the digirts of " + number + " is " + sum);
     }
     
 }
